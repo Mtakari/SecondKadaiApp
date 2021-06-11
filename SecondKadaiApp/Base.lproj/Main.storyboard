@@ -73,7 +73,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fA-so-1yd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fA-so-1yd">
                                 <rect key="frame" x="191.5" y="221" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
@@ -88,6 +88,7 @@
                             <constraint firstItem="Oyc-hp-XPw" firstAttribute="centerX" secondItem="0eg-GU-F8a" secondAttribute="centerX" id="CaT-Sz-eth"/>
                             <constraint firstItem="8fA-so-1yd" firstAttribute="centerX" secondItem="0eg-GU-F8a" secondAttribute="centerX" id="Da7-1d-li4"/>
                             <constraint firstItem="Oyc-hp-XPw" firstAttribute="top" secondItem="SY5-fM-5T9" secondAttribute="top" constant="100" id="EZG-Ux-SLO"/>
+                            <constraint firstItem="SY5-fM-5T9" firstAttribute="bottom" secondItem="8fA-so-1yd" secondAttribute="bottom" constant="557" id="ycH-zV-B4S"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cMp-ig-cmB"/>
